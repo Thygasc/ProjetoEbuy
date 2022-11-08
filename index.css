@@ -1,11 +1,23 @@
-.cabecalho{
-
+.nav{
+   float: right;
+   font-family: 'Times New Roman', Times, serif;
+   
 }
 
-.navbar{
-    float:right
+.body{
+    background-color: black;
 }
-.inicio{
 
-
+.nav-link{
+ color: white;
+}
+.nav-item>a:hover{
+    color:cyan;
+}
+.nav>.active>a{
+    background-color: aliceblue;
+    color: white;
+}
+.nav-link>.dropdown-toggle>a{
+    color:cyan;
 }

@@ -1,0 +1,98 @@
+/* RETIRA PADDIN E MARGIN DE TODOS OS ELEMENTOS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* COLOCA OS EMELEMNTOS LISTADOS COM ALTURA E LARGURA NO TAMANHO DA TELA */
+html,
+body,
+section {
+    height: 100%;
+    width: 100%;
+}
+
+/* ACRESCENTA O RISCO ENTRE OS DOIS H's DA IMAGEM PRINCIPAL */
+hr {
+    /* border: black 2px solid; */
+    width: 60vw;
+    height: 10px;
+    background-color: rgb(182, 10, 10);
+    border: none;
+}
+
+/* DEFINE A IMAGEM NO BACKGROUND DA PAGINA INICIAL */
+/* COLOCA ELA NO TAMANHO DA TELA (100%) */
+.bg-image {
+    background: url('../img/bg-tribo-img.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+/* CENTRALIZA OS TESTES NE CONTRO DA IMAGEM */
+.text-center-img {
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+/* AUMENTA O TAMANHO DA FONTE DOS H's */
+.text-center-img h1 {
+    font-size: 40px;
+    color: rgb(182, 10, 10);
+}
+
+
+/* COLOCA A LISTA DE ITENS POR CIMA DA IMAGEM */
+.top-nav {
+    font-size: large;
+    overflow: hidden;
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+}
+
+
+/* ORGANIZA OS ITENS DO MENU EM LISTA */
+.menu-items {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin: 0 0 0 auto;
+}
+
+/* MECHE NOS LINKS DOS ITENS DO MENU */
+.menu-items a, h1 {
+    text-decoration: none;
+    padding: 14px;
+    color: rgb(182, 10, 10);
+}
+.menu-items a {
+    font-weight: 900;
+}
+/* HOVER NOS LINKS DOS ITENS DO0 MENU */
+.menu-items a:hover {
+    border-bottom: solid 6px red;
+}
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
